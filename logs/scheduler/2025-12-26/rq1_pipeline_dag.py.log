@@ -1,0 +1,1024 @@
+[2025-12-26T14:16:20.148+0000] {processor.py:154} INFO - Started process (PID=60) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:16:20.150+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:16:20.152+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:16:20.152+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:16:20.221+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:16:20.477+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:16:20.477+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:rq1_chronic_disease_pipeline
+[2025-12-26T14:16:20.490+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:16:20.489+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:rq1_chronic_disease_pipeline
+[2025-12-26T14:16:20.500+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:16:20.500+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:rq1_chronic_disease_pipeline
+[2025-12-26T14:16:20.501+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:16:20.501+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:16:20.516+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:16:20.516+0000] {dag.py:2606} INFO - Creating ORM DAG for rq1_chronic_disease_pipeline
+[2025-12-26T14:16:20.531+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:16:20.531+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:16:20.564+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.421 seconds
+[2025-12-26T14:16:50.800+0000] {processor.py:154} INFO - Started process (PID=115) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:16:50.802+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:16:50.804+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:16:50.803+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:16:50.856+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:16:50.938+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:16:50.938+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:16:50.987+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:16:50.986+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:16:51.049+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.254 seconds
+[2025-12-26T14:17:21.172+0000] {processor.py:154} INFO - Started process (PID=180) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:17:21.174+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:17:21.176+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:17:21.175+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:17:21.216+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:17:21.272+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:17:21.272+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:17:21.306+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:17:21.306+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:17:21.335+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.169 seconds
+[2025-12-26T14:17:52.173+0000] {processor.py:154} INFO - Started process (PID=244) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:17:52.175+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:17:52.178+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:17:52.177+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:17:52.244+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:17:52.322+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:17:52.322+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:17:52.367+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:17:52.366+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:17:52.404+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.237 seconds
+[2025-12-26T14:18:22.559+0000] {processor.py:154} INFO - Started process (PID=299) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:18:22.561+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:18:22.563+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:18:22.563+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:18:22.617+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:18:22.699+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:18:22.698+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:18:22.735+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:18:22.735+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:18:22.767+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.214 seconds
+[2025-12-26T14:18:52.884+0000] {processor.py:154} INFO - Started process (PID=363) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:18:52.887+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:18:52.889+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:18:52.888+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:18:52.947+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:18:53.018+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:18:53.017+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:18:53.057+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:18:53.056+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:18:53.090+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.214 seconds
+[2025-12-26T14:19:23.545+0000] {processor.py:154} INFO - Started process (PID=418) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:19:23.546+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:19:23.548+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:19:23.548+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:19:23.583+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:19:23.640+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:19:23.640+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:19:23.681+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:19:23.681+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:19:23.713+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.172 seconds
+[2025-12-26T14:53:02.401+0000] {processor.py:154} INFO - Started process (PID=473) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:53:02.413+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:53:02.438+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:53:02.430+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:53:02.974+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:53:03.631+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:53:03.630+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:53:04.328+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:53:04.328+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:53:04.795+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 2.469 seconds
+[2025-12-26T14:53:35.854+0000] {processor.py:154} INFO - Started process (PID=528) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:53:35.856+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:53:35.857+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:53:35.857+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:53:35.895+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:53:35.974+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:53:35.974+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:53:36.015+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:53:36.015+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:53:36.047+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.199 seconds
+[2025-12-26T14:54:06.372+0000] {processor.py:154} INFO - Started process (PID=583) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:54:06.374+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:54:06.376+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:54:06.376+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:54:06.425+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:54:06.478+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:54:06.478+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:54:06.513+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:54:06.513+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:54:06.546+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.182 seconds
+[2025-12-26T14:54:37.194+0000] {processor.py:154} INFO - Started process (PID=647) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:54:37.196+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:54:37.198+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:54:37.197+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:54:37.241+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:54:37.302+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:54:37.302+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:54:37.337+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:54:37.337+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:54:37.379+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.192 seconds
+[2025-12-26T14:55:07.710+0000] {processor.py:154} INFO - Started process (PID=711) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:55:07.712+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:55:07.713+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:55:07.713+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:55:07.757+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:55:07.815+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:55:07.815+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:55:07.849+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:55:07.849+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:55:07.884+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.181 seconds
+[2025-12-26T14:55:38.698+0000] {processor.py:154} INFO - Started process (PID=767) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:55:38.700+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:55:38.701+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:55:38.701+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:55:38.738+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:55:38.805+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:55:38.805+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:55:38.840+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:55:38.840+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:55:38.876+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.183 seconds
+[2025-12-26T14:56:09.216+0000] {processor.py:154} INFO - Started process (PID=831) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:56:09.219+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T14:56:09.221+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:56:09.221+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:56:09.276+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T14:56:09.351+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:56:09.350+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T14:56:09.392+0000] {logging_mixin.py:120} INFO - [2025-12-26T14:56:09.392+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T14:56:09.433+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.228 seconds
+[2025-12-26T15:14:12.841+0000] {processor.py:154} INFO - Started process (PID=846) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:14:12.877+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:14:12.894+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:14:12.880+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:14:13.176+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:14:13.885+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:14:13.885+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:14:14.475+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:14:14.474+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:14:14.753+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 2.115 seconds
+[2025-12-26T15:14:46.035+0000] {processor.py:154} INFO - Started process (PID=893) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:14:46.041+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:14:46.051+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:14:46.050+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:14:46.212+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:14:46.641+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:14:46.641+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:14:46.861+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:14:46.860+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:14:47.101+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 1.089 seconds
+[2025-12-26T15:15:17.262+0000] {processor.py:154} INFO - Started process (PID=956) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:15:17.264+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:15:17.266+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:15:17.265+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:15:17.322+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:15:17.390+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:15:17.390+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:15:17.433+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:15:17.433+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:15:17.475+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.221 seconds
+[2025-12-26T15:15:47.886+0000] {processor.py:154} INFO - Started process (PID=1014) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:15:47.888+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:15:47.890+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:15:47.890+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:15:47.941+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:15:48.016+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:15:48.016+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:15:48.051+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:15:48.051+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:15:48.088+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.207 seconds
+[2025-12-26T15:16:18.587+0000] {processor.py:154} INFO - Started process (PID=1078) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:16:18.589+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:16:18.590+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:16:18.590+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:16:18.620+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:16:18.670+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:16:18.669+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:16:18.698+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:16:18.698+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:16:18.728+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.145 seconds
+[2025-12-26T15:16:48.845+0000] {processor.py:154} INFO - Started process (PID=1133) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:16:48.847+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:16:48.849+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:16:48.849+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:16:48.887+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:16:48.955+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:16:48.954+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:16:48.991+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:16:48.991+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:16:49.035+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.196 seconds
+[2025-12-26T15:17:19.332+0000] {processor.py:154} INFO - Started process (PID=1197) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:17:19.333+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:17:19.336+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:17:19.336+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:17:19.382+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:17:19.462+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:17:19.462+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:17:19.510+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:17:19.510+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:17:19.548+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.224 seconds
+[2025-12-26T15:17:49.805+0000] {processor.py:154} INFO - Started process (PID=1252) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:17:49.807+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:17:49.808+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:17:49.808+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:17:49.841+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:17:49.896+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:17:49.896+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:17:49.926+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:17:49.926+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:17:49.953+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.152 seconds
+[2025-12-26T15:18:20.159+0000] {processor.py:154} INFO - Started process (PID=1316) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:18:20.160+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:18:20.161+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:18:20.161+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:18:20.200+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:18:20.260+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:18:20.260+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:18:20.303+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:18:20.303+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:18:20.333+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.179 seconds
+[2025-12-26T15:18:50.624+0000] {processor.py:154} INFO - Started process (PID=1371) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:18:50.626+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:18:50.627+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:18:50.627+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:18:50.666+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:18:50.728+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:18:50.728+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:18:50.764+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:18:50.763+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:18:50.797+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.178 seconds
+[2025-12-26T15:19:20.896+0000] {processor.py:154} INFO - Started process (PID=1435) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:19:20.898+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:19:20.900+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:19:20.900+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:19:20.946+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:19:21.018+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:19:21.018+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:19:21.068+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:19:21.068+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:19:21.109+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.218 seconds
+[2025-12-26T15:19:51.495+0000] {processor.py:154} INFO - Started process (PID=1499) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:19:51.497+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:19:51.498+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:19:51.498+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:19:51.532+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:19:51.594+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:19:51.593+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:19:51.629+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:19:51.629+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:19:51.659+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.169 seconds
+[2025-12-26T15:20:22.027+0000] {processor.py:154} INFO - Started process (PID=1554) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:20:22.029+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:20:22.030+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:20:22.030+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:20:22.071+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:20:22.133+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:20:22.132+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:20:22.167+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:20:22.167+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:20:22.215+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.193 seconds
+[2025-12-26T15:20:52.567+0000] {processor.py:154} INFO - Started process (PID=1618) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:20:52.569+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:20:52.571+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:20:52.570+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:20:52.621+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:20:52.684+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:20:52.684+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:20:52.721+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:20:52.720+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:20:52.772+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.210 seconds
+[2025-12-26T15:21:22.984+0000] {processor.py:154} INFO - Started process (PID=1673) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:21:22.986+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:21:22.988+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:21:22.988+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:21:23.035+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:21:23.098+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:21:23.097+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:21:23.131+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:21:23.131+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:21:23.167+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.190 seconds
+[2025-12-26T15:21:53.493+0000] {processor.py:154} INFO - Started process (PID=1737) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:21:53.495+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:21:53.497+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:21:53.497+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:21:53.536+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:21:53.599+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:21:53.599+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:21:53.640+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:21:53.640+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:21:53.679+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.191 seconds
+[2025-12-26T15:22:23.894+0000] {processor.py:154} INFO - Started process (PID=1792) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:22:23.896+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:22:23.897+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:22:23.897+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:22:23.948+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:22:24.031+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:22:24.031+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:22:24.080+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:22:24.079+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:22:24.133+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.246 seconds
+[2025-12-26T15:22:54.285+0000] {processor.py:154} INFO - Started process (PID=1856) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:22:54.287+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:22:54.288+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:22:54.288+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:22:54.327+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:22:54.378+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:22:54.378+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:22:54.407+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:22:54.406+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:22:54.435+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.155 seconds
+[2025-12-26T15:23:25.031+0000] {processor.py:154} INFO - Started process (PID=1912) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:23:25.033+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:23:25.035+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:23:25.034+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:23:25.077+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:23:25.145+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:23:25.144+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:23:25.181+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:23:25.181+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:23:25.222+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.196 seconds
+[2025-12-26T15:23:55.652+0000] {processor.py:154} INFO - Started process (PID=1976) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:23:55.654+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:23:55.655+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:23:55.655+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:23:55.697+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:23:55.760+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:23:55.759+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:23:55.796+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:23:55.796+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:23:55.831+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.186 seconds
+[2025-12-26T15:24:25.916+0000] {processor.py:154} INFO - Started process (PID=2031) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:24:25.918+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:24:25.920+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:24:25.920+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:24:25.961+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:24:26.022+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:24:26.022+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:24:26.064+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:24:26.064+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:24:26.095+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.184 seconds
+[2025-12-26T15:24:56.277+0000] {processor.py:154} INFO - Started process (PID=2094) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:24:56.279+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:24:56.281+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:24:56.280+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:24:56.320+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:24:56.384+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:24:56.383+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:24:56.422+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:24:56.422+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:24:56.461+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.190 seconds
+[2025-12-26T15:25:27.050+0000] {processor.py:154} INFO - Started process (PID=2158) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:25:27.052+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:25:27.054+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:25:27.054+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:25:27.107+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:25:27.187+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:25:27.187+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:25:27.229+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:25:27.229+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:25:27.277+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.235 seconds
+[2025-12-26T15:25:57.697+0000] {processor.py:154} INFO - Started process (PID=2213) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:25:57.701+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:25:57.705+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:25:57.704+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:25:57.785+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:25:57.865+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:25:57.865+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:25:57.903+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:25:57.903+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:25:57.940+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.252 seconds
+[2025-12-26T15:26:28.413+0000] {processor.py:154} INFO - Started process (PID=2279) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:26:28.416+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:26:28.419+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:26:28.418+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:26:28.504+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:26:28.685+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:26:28.685+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:26:28.762+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:26:28.761+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:26:28.839+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.434 seconds
+[2025-12-26T15:26:59.268+0000] {processor.py:154} INFO - Started process (PID=2334) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:26:59.269+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:26:59.270+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:26:59.270+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:26:59.305+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:26:59.351+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:26:59.351+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:26:59.381+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:26:59.380+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:26:59.409+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.146 seconds
+[2025-12-26T15:27:30.357+0000] {processor.py:154} INFO - Started process (PID=2399) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:27:30.359+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:27:30.361+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:27:30.360+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:27:30.406+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:27:30.476+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:27:30.475+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:27:30.517+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:27:30.516+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:27:30.547+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.195 seconds
+[2025-12-26T15:28:00.620+0000] {processor.py:154} INFO - Started process (PID=2454) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:28:00.622+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:28:00.623+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:28:00.622+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:28:00.660+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:28:00.731+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:28:00.731+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:28:00.770+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:28:00.769+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:28:00.803+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.188 seconds
+[2025-12-26T15:28:31.465+0000] {processor.py:154} INFO - Started process (PID=2518) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:28:31.466+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:28:31.467+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:28:31.467+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:28:31.497+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:28:31.546+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:28:31.546+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:28:31.575+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:28:31.575+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:28:31.601+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.142 seconds
+[2025-12-26T15:29:02.086+0000] {processor.py:154} INFO - Started process (PID=2584) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:29:02.088+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:29:02.089+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:29:02.089+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:29:02.121+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:29:02.175+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:29:02.175+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:29:02.211+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:29:02.210+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:29:02.254+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.173 seconds
+[2025-12-26T15:29:32.917+0000] {processor.py:154} INFO - Started process (PID=2639) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:29:32.919+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:29:32.920+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:29:32.920+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:29:32.958+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:29:33.015+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:29:33.015+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:29:33.045+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:29:33.045+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:29:33.072+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.161 seconds
+[2025-12-26T15:30:03.461+0000] {processor.py:154} INFO - Started process (PID=2703) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:30:03.462+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:30:03.464+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:30:03.463+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:30:03.506+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:30:03.576+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:30:03.576+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:30:03.637+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:30:03.636+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:30:03.680+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.226 seconds
+[2025-12-26T15:30:34.634+0000] {processor.py:154} INFO - Started process (PID=2758) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:30:34.635+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:30:34.637+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:30:34.636+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:30:34.665+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:30:34.757+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:30:34.756+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:30:34.781+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:30:34.781+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:30:34.808+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.178 seconds
+[2025-12-26T15:31:04.993+0000] {processor.py:154} INFO - Started process (PID=2822) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:31:04.995+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:31:04.996+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:31:04.996+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:31:05.024+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:31:05.073+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:31:05.073+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:31:05.103+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:31:05.103+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:31:05.133+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.144 seconds
+[2025-12-26T15:31:35.715+0000] {processor.py:154} INFO - Started process (PID=2886) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:31:35.717+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:31:35.718+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:31:35.718+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:31:35.753+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:31:35.817+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:31:35.817+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:31:35.857+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:31:35.857+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:31:35.890+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.180 seconds
+[2025-12-26T15:33:37.168+0000] {processor.py:154} INFO - Started process (PID=50) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:33:37.170+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:33:37.172+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:33:37.172+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:33:37.234+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:33:37.316+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:33:37.315+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:33:37.360+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:33:37.359+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:33:37.402+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.243 seconds
+[2025-12-26T15:34:08.020+0000] {processor.py:154} INFO - Started process (PID=106) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:34:08.022+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:34:08.023+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:34:08.023+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:34:08.072+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:34:08.138+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:34:08.137+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:34:08.178+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:34:08.178+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:34:08.213+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.198 seconds
+[2025-12-26T15:34:38.428+0000] {processor.py:154} INFO - Started process (PID=161) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:34:38.430+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:34:38.431+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:34:38.431+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:34:38.524+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:34:38.726+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:34:38.725+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:34:38.800+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:34:38.800+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:34:38.871+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.453 seconds
+[2025-12-26T15:35:09.063+0000] {processor.py:154} INFO - Started process (PID=225) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:35:09.064+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:35:09.065+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:35:09.065+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:35:09.118+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:35:09.197+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:35:09.197+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:35:09.272+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:35:09.272+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:35:09.323+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.265 seconds
+[2025-12-26T15:35:39.632+0000] {processor.py:154} INFO - Started process (PID=280) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:35:39.634+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:35:39.635+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:35:39.635+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:35:39.665+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:35:39.712+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:35:39.712+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:35:39.739+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:35:39.739+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:35:39.764+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.136 seconds
+[2025-12-26T15:38:16.876+0000] {processor.py:154} INFO - Started process (PID=50) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:38:16.879+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:38:16.881+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:38:16.881+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:38:16.984+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:38:17.255+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:38:17.255+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:rq1_chronic_disease_pipeline
+[2025-12-26T15:38:17.270+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:38:17.270+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:rq1_chronic_disease_pipeline
+[2025-12-26T15:38:17.284+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:38:17.283+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:rq1_chronic_disease_pipeline
+[2025-12-26T15:38:17.285+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:38:17.284+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:38:17.301+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:38:17.301+0000] {dag.py:2606} INFO - Creating ORM DAG for rq1_chronic_disease_pipeline
+[2025-12-26T15:38:17.314+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:38:17.314+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:38:17.347+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.477 seconds
+[2025-12-26T15:38:47.490+0000] {processor.py:154} INFO - Started process (PID=105) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:38:47.492+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:38:47.493+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:38:47.493+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:38:47.526+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:38:47.577+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:38:47.577+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:38:47.605+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:38:47.605+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:38:47.634+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.148 seconds
+[2025-12-26T15:39:17.830+0000] {processor.py:154} INFO - Started process (PID=170) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:39:17.831+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:39:17.833+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:39:17.832+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:39:17.866+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:39:17.957+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:39:17.957+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:39:17.982+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:39:17.981+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:39:18.013+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.187 seconds
+[2025-12-26T15:39:48.486+0000] {processor.py:154} INFO - Started process (PID=234) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:39:48.488+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:39:48.489+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:39:48.489+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:39:48.518+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:39:48.569+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:39:48.569+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:39:48.599+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:39:48.599+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:39:48.629+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.147 seconds
+[2025-12-26T15:40:18.941+0000] {processor.py:154} INFO - Started process (PID=290) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:40:18.943+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:40:18.944+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:40:18.944+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:40:18.978+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:40:19.044+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:40:19.044+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:40:19.082+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:40:19.082+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:40:19.125+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.188 seconds
+[2025-12-26T15:40:49.810+0000] {processor.py:154} INFO - Started process (PID=354) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:40:49.811+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:40:49.813+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:40:49.813+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:40:49.846+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:40:49.901+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:40:49.900+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:40:49.933+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:40:49.933+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:40:49.966+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.162 seconds
+[2025-12-26T15:41:20.848+0000] {processor.py:154} INFO - Started process (PID=419) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:41:20.850+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:41:20.851+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:41:20.851+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:41:20.885+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:41:20.957+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:41:20.957+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:41:20.994+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:41:20.994+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:41:21.022+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.179 seconds
+[2025-12-26T15:41:51.349+0000] {processor.py:154} INFO - Started process (PID=480) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:41:51.350+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:41:51.352+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:41:51.352+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:41:51.404+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:41:51.474+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:41:51.473+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:41:51.516+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:41:51.516+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:41:51.552+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.208 seconds
+[2025-12-26T15:44:06.912+0000] {processor.py:154} INFO - Started process (PID=55) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:44:06.914+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:44:06.915+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:44:06.915+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:44:06.969+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:44:07.041+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:44:07.041+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:44:07.080+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:44:07.080+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:44:07.107+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.203 seconds
+[2025-12-26T15:49:02.333+0000] {processor.py:154} INFO - Started process (PID=50) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:49:02.336+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:49:02.339+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:49:02.339+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:49:02.481+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:49:02.841+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:49:02.841+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:rq1_chronic_disease_pipeline
+[2025-12-26T15:49:02.856+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:49:02.856+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:rq1_chronic_disease_pipeline
+[2025-12-26T15:49:02.870+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:49:02.870+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:rq1_chronic_disease_pipeline
+[2025-12-26T15:49:02.871+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:49:02.871+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:49:02.892+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:49:02.891+0000] {dag.py:2606} INFO - Creating ORM DAG for rq1_chronic_disease_pipeline
+[2025-12-26T15:49:02.913+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:49:02.913+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:49:02.949+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.622 seconds
+[2025-12-26T15:49:33.094+0000] {processor.py:154} INFO - Started process (PID=105) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:49:33.096+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:49:33.097+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:49:33.097+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:49:33.126+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:49:33.222+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:49:33.222+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:49:33.248+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:49:33.248+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:49:33.274+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.184 seconds
+[2025-12-26T15:50:03.925+0000] {processor.py:154} INFO - Started process (PID=170) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:50:03.926+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:50:03.928+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:50:03.928+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:50:03.966+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:50:04.101+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:50:04.101+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:50:04.149+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:50:04.149+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:50:04.182+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.262 seconds
+[2025-12-26T15:50:34.595+0000] {processor.py:154} INFO - Started process (PID=234) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:50:34.597+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:50:34.599+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:50:34.598+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:50:34.659+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:50:34.760+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:50:34.760+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:50:34.816+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:50:34.816+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:50:34.871+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.284 seconds
+[2025-12-26T15:51:05.089+0000] {processor.py:154} INFO - Started process (PID=289) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:51:05.090+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:51:05.091+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:51:05.091+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:51:05.120+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:51:05.167+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:51:05.166+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:51:05.193+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:51:05.193+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:51:05.216+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.131 seconds
+[2025-12-26T15:51:35.642+0000] {processor.py:154} INFO - Started process (PID=353) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:51:35.644+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:51:35.645+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:51:35.645+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:51:35.675+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:51:35.724+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:51:35.724+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:51:35.751+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:51:35.751+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:51:35.775+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.138 seconds
+[2025-12-26T15:52:06.456+0000] {processor.py:154} INFO - Started process (PID=418) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:52:06.458+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:52:06.459+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:52:06.459+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:52:06.497+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:52:06.551+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:52:06.551+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:52:06.584+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:52:06.583+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:52:06.610+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.159 seconds
+[2025-12-26T15:52:37.224+0000] {processor.py:154} INFO - Started process (PID=473) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:52:37.226+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:52:37.227+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:52:37.227+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:52:37.261+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:52:37.314+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:52:37.313+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:52:37.349+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:52:37.349+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:52:37.380+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.161 seconds
+[2025-12-26T15:53:07.641+0000] {processor.py:154} INFO - Started process (PID=538) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:53:07.643+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:53:07.644+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:07.644+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:53:07.688+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_chronic_disease_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:53:07.757+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:07.757+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:53:07.805+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:07.805+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_chronic_disease_pipeline to None, run_after=None
+[2025-12-26T15:53:07.846+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.210 seconds
+[2025-12-26T15:53:13.220+0000] {processor.py:154} INFO - Started process (PID=559) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:53:13.221+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:53:13.222+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:13.222+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:53:13.276+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:53:13.499+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:13.499+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:rq1_end_to_end_pipeline
+[2025-12-26T15:53:13.515+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:13.515+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:rq1_end_to_end_pipeline
+[2025-12-26T15:53:13.528+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:13.527+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:rq1_end_to_end_pipeline
+[2025-12-26T15:53:13.529+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:13.528+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:53:13.549+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:13.549+0000] {dag.py:2606} INFO - Creating ORM DAG for rq1_end_to_end_pipeline
+[2025-12-26T15:53:13.562+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:13.562+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:53:13.595+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.379 seconds
+[2025-12-26T15:53:43.674+0000] {processor.py:154} INFO - Started process (PID=624) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:53:43.675+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:53:43.676+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:43.676+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:53:43.708+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:53:43.756+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:43.756+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:53:43.786+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:53:43.786+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:53:43.811+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.142 seconds
+[2025-12-26T15:54:14.263+0000] {processor.py:154} INFO - Started process (PID=683) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:54:14.264+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:54:14.265+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:54:14.265+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:54:14.300+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:54:14.355+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:54:14.355+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:54:14.385+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:54:14.385+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:54:14.413+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.154 seconds
+[2025-12-26T15:54:45.529+0000] {processor.py:154} INFO - Started process (PID=738) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:54:45.530+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:54:45.531+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:54:45.531+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:54:45.563+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:54:45.612+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:54:45.612+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:54:45.646+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:54:45.646+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:54:45.672+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.148 seconds
+[2025-12-26T15:55:15.815+0000] {processor.py:154} INFO - Started process (PID=803) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:55:15.816+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:55:15.817+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:55:15.817+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:55:15.848+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:55:15.899+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:55:15.899+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:55:15.925+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:55:15.925+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:55:15.949+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.141 seconds
+[2025-12-26T15:55:46.066+0000] {processor.py:154} INFO - Started process (PID=867) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:55:46.068+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:55:46.069+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:55:46.069+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:55:46.100+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:55:46.155+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:55:46.155+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:55:46.187+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:55:46.187+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:55:46.218+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.156 seconds
+[2025-12-26T15:56:16.436+0000] {processor.py:154} INFO - Started process (PID=922) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:56:16.438+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:56:16.439+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:56:16.439+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:56:16.473+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:56:16.525+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:56:16.525+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:56:16.556+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:56:16.555+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:56:16.580+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.149 seconds
+[2025-12-26T15:56:47.212+0000] {processor.py:154} INFO - Started process (PID=985) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:56:47.214+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:56:47.215+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:56:47.215+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:56:47.250+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:56:47.302+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:56:47.302+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:56:47.332+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:56:47.332+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:56:47.359+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.152 seconds
+[2025-12-26T15:57:17.781+0000] {processor.py:154} INFO - Started process (PID=1049) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:57:17.782+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:57:17.783+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:57:17.783+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:57:17.814+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:57:17.863+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:57:17.863+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:57:17.892+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:57:17.892+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:57:17.916+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.141 seconds
+[2025-12-26T15:57:48.115+0000] {processor.py:154} INFO - Started process (PID=1099) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:57:48.116+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:57:48.117+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:57:48.117+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:57:48.145+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:57:48.193+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:57:48.192+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:57:48.219+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:57:48.219+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:57:48.243+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.133 seconds
+[2025-12-26T15:58:18.455+0000] {processor.py:154} INFO - Started process (PID=1163) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:58:18.457+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:58:18.458+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:58:18.457+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:58:18.486+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:58:18.549+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:58:18.548+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:58:18.579+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:58:18.579+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:58:18.606+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.155 seconds
+[2025-12-26T15:58:48.908+0000] {processor.py:154} INFO - Started process (PID=1227) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:58:48.909+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:58:48.910+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:58:48.910+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:58:48.939+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:58:49.007+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:58:49.007+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:58:49.053+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:58:49.053+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:58:49.097+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.194 seconds
+[2025-12-26T15:59:19.252+0000] {processor.py:154} INFO - Started process (PID=1282) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:59:19.253+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:59:19.254+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:59:19.254+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:59:19.282+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:59:19.330+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:59:19.330+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:59:19.356+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:59:19.356+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:59:19.380+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.132 seconds
+[2025-12-26T15:59:49.480+0000] {processor.py:154} INFO - Started process (PID=1346) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:59:49.482+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T15:59:49.483+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:59:49.483+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:59:49.510+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T15:59:49.554+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:59:49.554+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T15:59:49.582+0000] {logging_mixin.py:120} INFO - [2025-12-26T15:59:49.582+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T15:59:49.605+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.128 seconds
+[2025-12-26T16:00:19.800+0000] {processor.py:154} INFO - Started process (PID=1410) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:00:19.801+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:00:19.803+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:00:19.803+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:00:19.836+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:00:19.882+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:00:19.882+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:00:19.908+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:00:19.908+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:00:19.933+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.138 seconds
+[2025-12-26T16:00:50.206+0000] {processor.py:154} INFO - Started process (PID=1465) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:00:50.208+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:00:50.209+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:00:50.209+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:00:50.238+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:00:50.284+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:00:50.283+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:00:50.311+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:00:50.311+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:00:50.335+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.133 seconds
+[2025-12-26T16:01:20.947+0000] {processor.py:154} INFO - Started process (PID=1529) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:01:20.948+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:01:20.950+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:01:20.950+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:01:20.980+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:01:21.031+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:01:21.031+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:01:21.058+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:01:21.058+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:01:21.081+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.138 seconds
+[2025-12-26T16:01:51.402+0000] {processor.py:154} INFO - Started process (PID=1593) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:01:51.404+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:01:51.405+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:01:51.405+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:01:51.434+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:01:51.481+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:01:51.481+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:01:51.507+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:01:51.507+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:01:51.529+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.130 seconds
+[2025-12-26T16:02:21.784+0000] {processor.py:154} INFO - Started process (PID=1648) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:02:21.785+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:02:21.786+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:02:21.786+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:02:21.816+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:02:21.862+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:02:21.862+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:02:21.888+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:02:21.888+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:02:21.911+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.131 seconds
+[2025-12-26T16:02:52.139+0000] {processor.py:154} INFO - Started process (PID=1713) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:02:52.141+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:02:52.142+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:02:52.142+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:02:52.169+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:02:52.215+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:02:52.214+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:02:52.242+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:02:52.242+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:02:52.265+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.130 seconds
+[2025-12-26T16:03:22.775+0000] {processor.py:154} INFO - Started process (PID=1778) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:03:22.777+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:03:22.778+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:03:22.778+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:03:22.807+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:03:22.854+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:03:22.853+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:03:22.881+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:03:22.881+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:03:22.905+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.134 seconds
+[2025-12-26T16:03:53.158+0000] {processor.py:154} INFO - Started process (PID=1833) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:03:53.159+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:03:53.160+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:03:53.160+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:03:53.188+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:03:53.237+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:03:53.237+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:03:53.265+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:03:53.265+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:03:53.291+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.137 seconds
+[2025-12-26T16:04:24.130+0000] {processor.py:154} INFO - Started process (PID=1897) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:04:24.132+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:04:24.133+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:04:24.133+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:04:24.168+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:04:24.216+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:04:24.216+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:04:24.245+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:04:24.245+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:04:24.272+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.148 seconds
+[2025-12-26T16:04:54.681+0000] {processor.py:154} INFO - Started process (PID=1962) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:04:54.682+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:04:54.683+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:04:54.683+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:04:54.712+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:04:54.758+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:04:54.758+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:04:54.785+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:04:54.785+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:04:54.808+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.132 seconds
+[2025-12-26T16:05:25.382+0000] {processor.py:154} INFO - Started process (PID=2017) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:05:25.383+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:05:25.385+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:05:25.384+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:05:25.413+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:05:25.460+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:05:25.460+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:05:25.488+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:05:25.488+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:05:25.511+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.134 seconds
+[2025-12-26T16:05:55.932+0000] {processor.py:154} INFO - Started process (PID=2081) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:05:55.934+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:05:55.935+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:05:55.935+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:05:55.966+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:05:56.014+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:05:56.014+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:05:56.040+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:05:56.040+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:05:56.065+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.136 seconds
+[2025-12-26T16:06:26.753+0000] {processor.py:154} INFO - Started process (PID=2145) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:06:26.755+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:06:26.756+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:06:26.756+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:06:26.785+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:06:26.831+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:06:26.831+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:06:26.857+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:06:26.857+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:06:26.883+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.133 seconds
+[2025-12-26T16:07:48.811+0000] {processor.py:154} INFO - Started process (PID=51) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:07:48.813+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:07:48.815+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:07:48.815+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:07:48.889+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:07:49.004+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:07:49.004+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:07:49.031+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:07:49.031+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:07:49.060+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.255 seconds
+[2025-12-26T16:08:19.292+0000] {processor.py:154} INFO - Started process (PID=108) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:08:19.294+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:08:19.296+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:08:19.295+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:08:19.366+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:08:19.446+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:08:19.446+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:08:19.495+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:08:19.495+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:08:19.530+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.246 seconds
+[2025-12-26T16:08:49.824+0000] {processor.py:154} INFO - Started process (PID=172) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:08:49.826+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:08:49.828+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:08:49.827+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:08:49.866+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:08:49.922+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:08:49.922+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:08:49.955+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:08:49.955+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:08:49.981+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.163 seconds
+[2025-12-26T16:09:20.097+0000] {processor.py:154} INFO - Started process (PID=237) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:09:20.098+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:09:20.100+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:09:20.100+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:09:20.128+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:09:20.180+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:09:20.180+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:09:20.209+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:09:20.209+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:09:20.233+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.140 seconds
+[2025-12-26T16:09:50.686+0000] {processor.py:154} INFO - Started process (PID=293) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:09:50.687+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:09:50.688+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:09:50.688+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:09:50.715+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:09:50.761+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:09:50.761+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:09:50.787+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:09:50.787+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:09:50.811+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.130 seconds
+[2025-12-26T16:10:21.517+0000] {processor.py:154} INFO - Started process (PID=357) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:10:21.518+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:10:21.519+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:10:21.519+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:10:21.550+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:10:21.597+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:10:21.597+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:10:21.626+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:10:21.626+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:10:21.657+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.145 seconds
+[2025-12-26T16:10:51.737+0000] {processor.py:154} INFO - Started process (PID=421) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:10:51.738+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:10:51.739+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:10:51.739+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:10:51.767+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:10:51.816+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:10:51.816+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:10:51.844+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:10:51.843+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:10:51.867+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.135 seconds
+[2025-12-26T16:11:22.121+0000] {processor.py:154} INFO - Started process (PID=476) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:11:22.123+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:11:22.124+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:11:22.124+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:11:22.156+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:11:22.211+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:11:22.211+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:11:22.242+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:11:22.242+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:11:22.268+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.152 seconds
+[2025-12-26T16:11:52.455+0000] {processor.py:154} INFO - Started process (PID=540) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:11:52.457+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:11:52.458+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:11:52.458+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:11:52.489+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:11:52.538+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:11:52.538+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:11:52.563+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:11:52.563+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:11:52.587+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.136 seconds
+[2025-12-26T16:12:23.419+0000] {processor.py:154} INFO - Started process (PID=604) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:12:23.420+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:12:23.423+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:12:23.423+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:12:23.450+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:12:23.498+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:12:23.497+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:12:23.531+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:12:23.531+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:12:23.557+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.143 seconds
+[2025-12-26T16:12:54.150+0000] {processor.py:154} INFO - Started process (PID=659) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:12:54.152+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:12:54.153+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:12:54.153+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:12:54.183+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:12:54.246+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:12:54.245+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:12:54.285+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:12:54.285+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:12:54.313+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.167 seconds
+[2025-12-26T16:13:24.614+0000] {processor.py:154} INFO - Started process (PID=724) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:13:24.615+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:13:24.616+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:13:24.616+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:13:24.644+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:13:24.688+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:13:24.687+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:13:24.717+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:13:24.717+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:13:24.744+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.134 seconds
+[2025-12-26T16:13:54.969+0000] {processor.py:154} INFO - Started process (PID=788) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:13:54.970+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:13:54.971+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:13:54.971+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:13:55.003+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:13:55.049+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:13:55.048+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:13:55.074+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:13:55.074+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:13:55.098+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.134 seconds
+[2025-12-26T16:14:25.929+0000] {processor.py:154} INFO - Started process (PID=843) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:14:25.930+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:14:25.931+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:14:25.931+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:14:25.961+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:14:26.012+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:14:26.012+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:14:26.044+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:14:26.044+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:14:26.070+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.145 seconds
+[2025-12-26T16:14:56.902+0000] {processor.py:154} INFO - Started process (PID=907) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:14:56.903+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:14:56.905+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:14:56.904+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:14:56.938+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:14:56.997+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:14:56.996+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:14:57.033+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:14:57.032+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:14:57.058+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.162 seconds
+[2025-12-26T16:15:27.750+0000] {processor.py:154} INFO - Started process (PID=971) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:15:27.751+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:15:27.752+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:15:27.752+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:15:27.782+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:15:27.837+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:15:27.837+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:15:27.867+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:15:27.867+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:15:27.893+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.148 seconds
+[2025-12-26T16:15:58.907+0000] {processor.py:154} INFO - Started process (PID=1037) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:15:58.908+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:15:58.910+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:15:58.910+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:15:58.954+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:15:59.029+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:15:59.029+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:15:59.061+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:15:59.061+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:15:59.086+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.186 seconds
+[2025-12-26T16:16:29.349+0000] {processor.py:154} INFO - Started process (PID=1092) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:16:29.351+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:16:29.352+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:16:29.352+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:16:29.379+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:16:29.433+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:16:29.432+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:16:29.462+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:16:29.462+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:16:29.487+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.143 seconds
+[2025-12-26T16:16:59.839+0000] {processor.py:154} INFO - Started process (PID=1156) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:16:59.840+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:16:59.842+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:16:59.842+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:16:59.871+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:16:59.931+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:16:59.931+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:16:59.960+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:16:59.960+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:16:59.986+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.152 seconds
+[2025-12-26T16:17:30.767+0000] {processor.py:154} INFO - Started process (PID=1220) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:17:30.769+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:17:30.771+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:17:30.771+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:17:30.808+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:17:30.875+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:17:30.875+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:17:30.908+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:17:30.908+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:17:30.935+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.174 seconds
+[2025-12-26T16:18:01.663+0000] {processor.py:154} INFO - Started process (PID=1275) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:18:01.664+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:18:01.665+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:18:01.665+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:18:01.692+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:18:01.740+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:18:01.739+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:18:01.768+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:18:01.767+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:18:01.792+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.135 seconds
+[2025-12-26T16:18:59.676+0000] {processor.py:154} INFO - Started process (PID=50) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:18:59.678+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:18:59.680+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:18:59.680+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:18:59.748+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:18:59.784+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:18:59.783+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:18:59.822+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:18:59.822+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:18:59.849+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.179 seconds
+[2025-12-26T16:19:29.987+0000] {processor.py:154} INFO - Started process (PID=106) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:19:29.988+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:19:29.990+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:19:29.989+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:19:30.031+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:19:30.098+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:19:30.098+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:19:30.133+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:19:30.133+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:19:30.161+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.179 seconds
+[2025-12-26T16:20:00.274+0000] {processor.py:154} INFO - Started process (PID=170) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:20:00.276+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:20:00.277+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:20:00.277+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:20:00.312+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:20:00.366+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:20:00.366+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:20:00.400+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:20:00.400+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:20:00.433+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.166 seconds
+[2025-12-26T16:20:31.167+0000] {processor.py:154} INFO - Started process (PID=226) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:20:31.169+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:20:31.171+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:20:31.171+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:20:31.201+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:20:31.253+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:20:31.253+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:20:31.283+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:20:31.283+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:20:31.308+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.147 seconds
+[2025-12-26T16:21:02.043+0000] {processor.py:154} INFO - Started process (PID=290) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:21:02.045+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:21:02.046+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:21:02.046+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:21:02.083+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:21:02.134+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:21:02.134+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:21:02.165+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:21:02.165+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:21:02.199+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.163 seconds
+[2025-12-26T16:21:32.478+0000] {processor.py:154} INFO - Started process (PID=355) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:21:32.479+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:21:32.480+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:21:32.480+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:21:32.512+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:21:32.567+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:21:32.567+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:21:32.597+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:21:32.596+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:21:32.623+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.150 seconds
+[2025-12-26T16:22:03.530+0000] {processor.py:154} INFO - Started process (PID=410) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:22:03.532+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:22:03.533+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:22:03.533+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:22:03.588+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:22:03.662+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:22:03.662+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:22:03.702+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:22:03.702+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:22:03.739+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.215 seconds
+[2025-12-26T16:22:34.097+0000] {processor.py:154} INFO - Started process (PID=474) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:22:34.099+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:22:34.100+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:22:34.100+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:22:34.139+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:22:34.191+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:22:34.191+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:22:34.220+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:22:34.220+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:22:34.246+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.154 seconds
+[2025-12-26T16:23:04.454+0000] {processor.py:154} INFO - Started process (PID=538) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:23:04.455+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:23:04.457+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:23:04.456+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:23:04.485+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:23:04.533+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:23:04.533+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:23:04.560+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:23:04.560+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:23:04.582+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.133 seconds
+[2025-12-26T16:23:35.289+0000] {processor.py:154} INFO - Started process (PID=602) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:23:35.290+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:23:35.291+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:23:35.291+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:23:35.324+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:23:35.379+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:23:35.379+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:23:35.411+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:23:35.411+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:23:35.437+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.153 seconds
+[2025-12-26T16:24:05.850+0000] {processor.py:154} INFO - Started process (PID=657) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:05.851+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:24:05.852+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:05.852+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:05.884+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:05.936+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:05.936+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:24:05.963+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:05.963+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:24:05.991+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.146 seconds
+[2025-12-26T16:24:18.262+0000] {processor.py:154} INFO - Started process (PID=703) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:18.263+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:24:18.264+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:18.264+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:18.306+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:18.392+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:18.392+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:24:18.416+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:18.416+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:24:18.444+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.186 seconds
+[2025-12-26T16:24:20.334+0000] {processor.py:154} INFO - Started process (PID=704) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:20.336+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:24:20.337+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:20.337+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:20.380+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:20.415+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:20.415+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:24:20.444+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:20.444+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:24:20.474+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.144 seconds
+[2025-12-26T16:24:27.552+0000] {processor.py:154} INFO - Started process (PID=714) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:27.553+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:24:27.554+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:27.554+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:27.597+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:27.632+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:27.632+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:24:27.664+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:27.664+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:24:27.697+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.150 seconds
+[2025-12-26T16:24:30.587+0000] {processor.py:154} INFO - Started process (PID=715) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:30.588+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:24:30.589+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:30.589+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:30.631+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:30.665+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:30.665+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:24:30.694+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:30.694+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:24:30.725+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.143 seconds
+[2025-12-26T16:24:32.771+0000] {processor.py:154} INFO - Started process (PID=725) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:32.772+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:24:32.774+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:32.773+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:32.814+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:32.859+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:32.858+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:24:32.892+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:32.892+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:24:32.926+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.159 seconds
+[2025-12-26T16:24:58.700+0000] {processor.py:154} INFO - Started process (PID=780) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:58.702+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:24:58.703+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:58.703+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:58.747+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:24:58.856+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:58.855+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:24:58.896+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:24:58.895+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:24:58.940+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.245 seconds
+[2025-12-26T16:25:00.774+0000] {processor.py:154} INFO - Started process (PID=781) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:00.775+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:25:00.776+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:00.776+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:00.818+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:00.862+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:00.862+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:25:00.896+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:00.895+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:25:00.931+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.161 seconds
+[2025-12-26T16:25:09.282+0000] {processor.py:154} INFO - Started process (PID=800) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:09.284+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:25:09.285+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:09.285+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:09.339+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:09.373+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:09.372+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:25:09.405+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:09.405+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:25:09.439+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.162 seconds
+[2025-12-26T16:25:17.154+0000] {processor.py:154} INFO - Started process (PID=828) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:17.156+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:25:17.157+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:17.157+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:17.206+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:17.243+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:17.243+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:25:17.274+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:17.273+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:25:17.304+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.156 seconds
+[2025-12-26T16:25:48.214+0000] {processor.py:154} INFO - Started process (PID=893) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:48.215+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:25:48.217+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:48.216+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:48.251+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:48.340+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:48.340+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:25:48.367+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:48.367+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:25:48.393+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.184 seconds
+[2025-12-26T16:25:51.288+0000] {processor.py:154} INFO - Started process (PID=894) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:51.290+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:25:51.291+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:51.290+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:51.327+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:51.359+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:51.358+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:25:51.385+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:51.385+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:25:51.416+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.132 seconds
+[2025-12-26T16:25:53.312+0000] {processor.py:154} INFO - Started process (PID=905) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:53.314+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:25:53.315+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:53.315+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:53.364+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:25:53.403+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:53.403+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:25:53.444+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:25:53.444+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:25:53.475+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.169 seconds
+[2025-12-26T16:26:08.998+0000] {processor.py:154} INFO - Started process (PID=919) to work on /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:26:08.999+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/rq1_pipeline_dag.py for tasks to queue
+[2025-12-26T16:26:09.001+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:26:09.001+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:26:09.056+0000] {processor.py:766} INFO - DAG(s) dict_keys(['rq1_end_to_end_pipeline']) retrieved from /opt/airflow/dags/rq1_pipeline_dag.py
+[2025-12-26T16:26:09.100+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:26:09.100+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-12-26T16:26:09.137+0000] {logging_mixin.py:120} INFO - [2025-12-26T16:26:09.137+0000] {dag.py:3340} INFO - Setting next_dagrun for rq1_end_to_end_pipeline to None, run_after=None
+[2025-12-26T16:26:09.171+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/rq1_pipeline_dag.py took 0.180 seconds
