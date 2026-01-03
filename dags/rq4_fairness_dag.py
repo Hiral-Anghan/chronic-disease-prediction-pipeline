@@ -45,7 +45,15 @@ with DAG(
         bash_command="python /opt/airflow/src/fairness/rq4_ethical_risk_summary.py",
     )
 
+    store_final_data = BashOperator(
+    task_id="store_final_data_sql",
+    bash_command="python /opt/airflow/src/data_storage/store_final_data_sql.py",
+)
+
+
+
     # ----- Dependencies -----
     sex_fairness_table >> sex_fairness_plot
     age_fairness_table >> age_fairness_plot
     [sex_fairness_plot, age_fairness_plot] >> ethical_risk_summary
+    ethical_risk_summary >> store_final_data
