@@ -1,35 +1,33 @@
-import os
-import matplotlib.pyplot as plt
+from airflow import DAG
+from airflow.operators.bash import BashOperator
+from datetime import datetime
 
-def generate_ethical_risk_summary():
-    os.makedirs("figures", exist_ok=True)
+with DAG(
+    dag_id="rq4_fairness_pipeline",
+    start_date=datetime(2024, 1, 1),
+    schedule_interval=None,
+    catchup=False,
+    tags=["rq4", "fairness", "ethics"],
+) as dag:
 
-    risks = [
-        "Sex-based bias",
-        "Age-based bias",
-        "Data imbalance",
-        "Model opacity",
-        "Unequal error rates"
-    ]
+    sex_fairness = BashOperator(
+        task_id="sex_fairness",
+        bash_command="python /opt/airflow/src/fairness/rq4_sex_fairness.py",
+    )
 
-    severity = [3, 4, 4, 3, 5]  # relative ethical risk levels (1–5)
+    age_fairness = BashOperator(
+        task_id="age_fairness",
+        bash_command="python /opt/airflow/src/fairness/rq4_age_fairness.py",
+    )
 
-    plt.figure(figsize=(8, 5))
-    bars = plt.barh(risks, severity)
+    ethical_risk_summary = BashOperator(
+        task_id="ethical_risk_summary",
+        bash_command="python /opt/airflow/src/fairness/rq4_ethical_risk_summary.py",
+    )
 
-    plt.xlabel("Ethical Risk Severity (Low → High)")
-    plt.title("RQ4 Figure 12: Ethical Risk Summary Diagram")
+    store_final_sql = BashOperator(
+        task_id="store_final_sql",
+        bash_command="python /opt/airflow/src/data_storage/store_final_data_sql.py",
+    )
 
-    for bar, value in zip(bars, severity):
-        plt.text(value + 0.1, bar.get_y() + bar.get_height()/2,
-                 str(value), va="center")
-
-    plt.xlim(0, 6)
-    plt.tight_layout()
-    plt.savefig("figures/RQ4_Figure_12_Ethical_Risk_Summary.pdf")
-    plt.close()
-
-    print("RQ4 Figure 12 generated successfully.")
-
-if __name__ == "__main__":
-    generate_ethical_risk_summary()
+    sex_fairness >> age_fairness >> ethical_risk_summary >> store_final_sql

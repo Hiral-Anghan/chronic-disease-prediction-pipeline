@@ -1,0 +1,28 @@
+[2026-01-04T15:35:03.436+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: rq1_end_to_end_pipeline.data_quality_analysis manual__2026-01-04T15:34:58.449010+00:00 [queued]>
+[2026-01-04T15:35:03.445+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: rq1_end_to_end_pipeline.data_quality_analysis manual__2026-01-04T15:34:58.449010+00:00 [queued]>
+[2026-01-04T15:35:03.446+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-01-04T15:35:03.462+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): data_quality_analysis> on 2026-01-04 15:34:58.449010+00:00
+[2026-01-04T15:35:03.471+0000] {standard_task_runner.py:60} INFO - Started process 651 to run task
+[2026-01-04T15:35:03.475+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'rq1_end_to_end_pipeline', 'data_quality_analysis', 'manual__2026-01-04T15:34:58.449010+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/rq1_pipeline_dag.py', '--cfg-path', '/tmp/tmp9yyeyo13']
+[2026-01-04T15:35:03.478+0000] {standard_task_runner.py:88} INFO - Job 4: Subtask data_quality_analysis
+[2026-01-04T15:35:03.554+0000] {task_command.py:423} INFO - Running <TaskInstance: rq1_end_to_end_pipeline.data_quality_analysis manual__2026-01-04T15:34:58.449010+00:00 [running]> on host b7be659b3694
+[2026-01-04T15:35:03.658+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='rq1_end_to_end_pipeline' AIRFLOW_CTX_TASK_ID='data_quality_analysis' AIRFLOW_CTX_EXECUTION_DATE='2026-01-04T15:34:58.449010+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-04T15:34:58.449010+00:00'
+[2026-01-04T15:35:03.661+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-01-04T15:35:03.664+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/src/evaluation/rq1_data_quality_analysis.py']
+[2026-01-04T15:35:03.682+0000] {subprocess.py:86} INFO - Output:
+[2026-01-04T15:35:04.360+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-01-04T15:35:04.361+0000] {subprocess.py:93} INFO -   File "/opt/***/src/evaluation/rq1_data_quality_analysis.py", line 3, in <module>
+[2026-01-04T15:35:04.361+0000] {subprocess.py:93} INFO -     import matplotlib.pyplot as plt
+[2026-01-04T15:35:04.362+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'matplotlib'
+[2026-01-04T15:35:04.462+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-01-04T15:35:04.476+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-01-04T15:35:04.479+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=rq1_end_to_end_pipeline, task_id=data_quality_analysis, execution_date=20260104T153458, start_date=20260104T153503, end_date=20260104T153504
+[2026-01-04T15:35:04.494+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 4 for task data_quality_analysis (Bash command failed. The command returned a non-zero exit code 1.; 651)
+[2026-01-04T15:35:04.534+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-01-04T15:35:04.560+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

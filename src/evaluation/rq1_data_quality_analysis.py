@@ -31,7 +31,7 @@ def rq1_data_quality_analysis():
     duplicate_count = df.duplicated().sum()
     data_quality["Summary showing missing values, duplicates, and inconsistencies per feature."] = duplicate_count
 
-    table_path = os.path.join(tables_dir, "RQ1_Table 1.xlsx")
+    table_path = os.path.join(tables_dir, "RQ1_Table_1_Data_quality_report.xlsx")
     data_quality.to_excel(table_path)
 
     # -----------------------------
@@ -43,7 +43,7 @@ def rq1_data_quality_analysis():
     plt.xlabel("Features")
     plt.ylabel("Records")
 
-    fig1_path = os.path.join(figures_dir, "RQ1_Figure 1.pdf")
+    fig1_path = os.path.join(figures_dir, "RQ1_Figure1_Missing_value .pdf")
     plt.tight_layout()
     plt.savefig(fig1_path)
     plt.close()
@@ -58,7 +58,7 @@ def rq1_data_quality_analysis():
     plt.title("Boxplots illustrating extreme values in features such as cholesterol and blood pressure.")
     plt.ylabel("Value")
 
-    fig2_path = os.path.join(figures_dir, "RQ1_Figure 2.pdf")
+    fig2_path = os.path.join(figures_dir, "RQ1_Figure_2_Outlier_Distribution.pdf")
     plt.tight_layout()
     plt.savefig(fig2_path)
     plt.close()

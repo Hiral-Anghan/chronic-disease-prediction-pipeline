@@ -12331,3 +12331,1332 @@ File Path                                    PID    Runtime      # DAGs    # Err
 /opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.21s           2025-12-29T16:58:53
 /opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.29s           2025-12-29T16:58:57
 ================================================================================
+[2026-01-04T15:24:45.655+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-01-04T15:24:45.656+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-04T15:24:45.657+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-01-04T15:24:45.658+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T15:24:45.739+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T15:24:45.897+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 0           0
+/opt/airflow/dags/rq2_pipeline_dag.py          174  0.06s             0           0
+/opt/airflow/dags/rq3_explainability_dag.py    171  0.08s             0           0
+/opt/airflow/dags/rq4_fairness_dag.py                                 0           0
+================================================================================
+[2026-01-04T15:25:15.988+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.24s           2026-01-04T15:24:46
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.65s           2026-01-04T15:24:46
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.65s           2026-01-04T15:24:46
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.25s           2026-01-04T15:24:46
+================================================================================
+[2026-01-04T15:25:46.596+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:25:17
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:25:17
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:25:17
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.13s           2026-01-04T15:25:17
+================================================================================
+[2026-01-04T15:26:17.203+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:25:47
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:25:47
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:25:47
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:25:48
+================================================================================
+[2026-01-04T15:26:47.821+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:26:18
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:26:18
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.17s           2026-01-04T15:26:18
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:26:18
+================================================================================
+[2026-01-04T15:27:18.409+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T15:26:49
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:26:49
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:26:48
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:26:49
+================================================================================
+[2026-01-04T15:27:49.001+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:27:19
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:27:19
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:27:19
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:27:19
+================================================================================
+[2026-01-04T15:28:19.596+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:27:50
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:27:50
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:27:50
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:27:50
+================================================================================
+[2026-01-04T15:28:50.214+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:28:20
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:28:20
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T15:28:20
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:28:21
+================================================================================
+[2026-01-04T15:29:20.784+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T15:28:51
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:28:51
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T15:28:51
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:28:51
+================================================================================
+[2026-01-04T15:29:46.375+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T15:29:46.428+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T15:29:51.489+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:29:22
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:29:21
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.19s           2026-01-04T15:29:21
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:29:22
+================================================================================
+[2026-01-04T15:30:22.074+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:29:52
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:29:52
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T15:29:52
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.13s           2026-01-04T15:29:52
+================================================================================
+[2026-01-04T15:30:52.675+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:30:23
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:30:23
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.17s           2026-01-04T15:30:23
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.18s           2026-01-04T15:30:23
+================================================================================
+[2026-01-04T15:31:23.292+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:30:54
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:30:53
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:30:53
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:30:54
+================================================================================
+[2026-01-04T15:31:53.907+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:31:24
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:31:24
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.17s           2026-01-04T15:31:24
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:31:24
+================================================================================
+[2026-01-04T15:32:24.563+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.20s           2026-01-04T15:31:55
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:31:55
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T15:31:55
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.19s           2026-01-04T15:31:55
+================================================================================
+[2026-01-04T15:32:55.127+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.12s           2026-01-04T15:32:25
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:32:25
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.14s           2026-01-04T15:32:25
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.12s           2026-01-04T15:32:25
+================================================================================
+[2026-01-04T15:33:25.901+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.23s           2026-01-04T15:32:56
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.25s           2026-01-04T15:32:56
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.25s           2026-01-04T15:32:56
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.22s           2026-01-04T15:32:56
+================================================================================
+[2026-01-04T15:33:56.519+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:33:27
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:33:27
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:33:27
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:33:27
+================================================================================
+[2026-01-04T15:34:27.109+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:33:57
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:33:57
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:33:57
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:33:57
+================================================================================
+[2026-01-04T15:34:46.695+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T15:34:46.746+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T15:34:57.855+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:34:28
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:34:28
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.17s           2026-01-04T15:34:28
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:34:28
+================================================================================
+[2026-01-04T15:35:28.508+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:34:59
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.19s           2026-01-04T15:34:59
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.19s           2026-01-04T15:34:59
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:34:59
+================================================================================
+[2026-01-04T15:35:59.179+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.18s           2026-01-04T15:35:29
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.18s           2026-01-04T15:35:29
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.17s           2026-01-04T15:35:29
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.20s           2026-01-04T15:35:30
+================================================================================
+[2026-01-04T15:36:29.773+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:36:00
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:36:00
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:36:00
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:36:00
+================================================================================
+[2026-01-04T15:37:00.360+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T15:36:31
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:36:30
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:36:30
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:36:31
+================================================================================
+[2026-01-04T15:37:30.960+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:37:01
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:37:01
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:37:01
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:37:01
+================================================================================
+[2026-01-04T15:38:02.166+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.27s           2026-01-04T15:37:32
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.38s           2026-01-04T15:37:32
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.39s           2026-01-04T15:37:32
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.30s           2026-01-04T15:37:32
+================================================================================
+[2026-01-04T15:38:32.764+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T15:38:03
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:38:03
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:38:03
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.13s           2026-01-04T15:38:03
+================================================================================
+[2026-01-04T15:39:03.361+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:38:34
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:38:33
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.17s           2026-01-04T15:38:33
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:38:34
+================================================================================
+[2026-01-04T15:39:33.974+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:39:04
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.18s           2026-01-04T15:39:04
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.17s           2026-01-04T15:39:04
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:39:04
+================================================================================
+[2026-01-04T15:39:47.452+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T15:39:47.516+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T15:40:04.692+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:39:35
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:39:35
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.17s           2026-01-04T15:39:35
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.16s           2026-01-04T15:39:35
+================================================================================
+[2026-01-04T15:40:35.319+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:40:06
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:40:05
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.18s           2026-01-04T15:40:05
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:40:06
+================================================================================
+[2026-01-04T15:41:05.911+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:40:36
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:40:36
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:40:36
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:40:36
+================================================================================
+[2026-01-04T15:41:36.518+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:41:07
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:41:07
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:41:07
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.16s           2026-01-04T15:41:07
+================================================================================
+[2026-01-04T15:42:07.107+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:41:37
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:41:37
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T15:41:37
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:41:37
+================================================================================
+[2026-01-04T15:42:07.834+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-01-04T15:45:30.925+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-01-04T15:45:30.926+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-04T15:45:30.926+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-01-04T15:45:30.927+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T15:45:30.992+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T15:45:31.129+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 0           0
+/opt/airflow/dags/rq2_pipeline_dag.py          228  0.06s             0           0
+/opt/airflow/dags/rq3_explainability_dag.py    225  0.08s             0           0
+/opt/airflow/dags/rq4_fairness_dag.py                                 0           0
+================================================================================
+[2026-01-04T15:46:01.706+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:45:31
+/opt/airflow/dags/rq2_pipeline_dag.py          248  0.01s             1           0  0.18s           2026-01-04T15:45:31
+/opt/airflow/dags/rq3_explainability_dag.py    245  0.02s             1           0  0.20s           2026-01-04T15:45:31
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:45:31
+================================================================================
+[2026-01-04T15:46:32.608+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.23s           2026-01-04T15:46:02
+/opt/airflow/dags/rq2_pipeline_dag.py          268  0.01s             1           0  0.36s           2026-01-04T15:46:02
+/opt/airflow/dags/rq3_explainability_dag.py    265  0.02s             1           0  0.40s           2026-01-04T15:46:02
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.23s           2026-01-04T15:46:02
+================================================================================
+[2026-01-04T15:47:03.343+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.20s           2026-01-04T15:46:32
+/opt/airflow/dags/rq2_pipeline_dag.py          288  0.01s             1           0  0.15s           2026-01-04T15:46:32
+/opt/airflow/dags/rq3_explainability_dag.py    285  0.03s             1           0  0.15s           2026-01-04T15:46:32
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.21s           2026-01-04T15:46:33
+================================================================================
+[2026-01-04T15:47:14.920+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-01-04T15:50:44.868+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-01-04T15:50:44.869+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-04T15:50:44.869+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-01-04T15:50:44.870+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T15:50:44.937+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T15:50:45.073+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 0           0
+/opt/airflow/dags/rq2_pipeline_dag.py          228  0.05s             0           0
+/opt/airflow/dags/rq3_explainability_dag.py    225  0.07s             0           0
+/opt/airflow/dags/rq4_fairness_dag.py                                 0           0
+================================================================================
+[2026-01-04T15:51:15.640+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T15:50:45
+/opt/airflow/dags/rq2_pipeline_dag.py          248  0.01s             1           0  0.18s           2026-01-04T15:50:45
+/opt/airflow/dags/rq3_explainability_dag.py    245  0.03s             1           0  0.18s           2026-01-04T15:50:45
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.13s           2026-01-04T15:50:45
+================================================================================
+[2026-01-04T15:51:45.857+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.24s           2026-01-04T15:51:16
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.50s           2026-01-04T15:51:16
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.50s           2026-01-04T15:51:16
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.23s           2026-01-04T15:51:16
+================================================================================
+[2026-01-04T15:52:16.237+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:51:46
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.18s           2026-01-04T15:51:46
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.17s           2026-01-04T15:51:46
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:51:47
+================================================================================
+[2026-01-04T15:52:46.829+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:52:17
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:52:17
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:52:17
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:52:17
+================================================================================
+[2026-01-04T15:53:17.441+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:52:48
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:52:48
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.17s           2026-01-04T15:52:48
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:52:48
+================================================================================
+[2026-01-04T15:53:48.041+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:53:18
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:53:18
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:53:18
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.16s           2026-01-04T15:53:18
+================================================================================
+[2026-01-04T15:54:18.637+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:53:49
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:53:49
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T15:53:49
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:53:49
+================================================================================
+[2026-01-04T15:54:49.217+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:54:19
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:54:19
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T15:54:19
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:54:20
+================================================================================
+[2026-01-04T15:55:19.812+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:54:50
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T15:54:50
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T15:54:50
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.27s           2026-01-04T15:54:50
+================================================================================
+[2026-01-04T15:55:45.416+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T15:55:45.470+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T15:55:50.530+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:55:21
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.18s           2026-01-04T15:55:21
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.21s           2026-01-04T15:55:21
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:55:21
+================================================================================
+[2026-01-04T15:56:21.172+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.16s           2026-01-04T15:55:51
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.19s           2026-01-04T15:55:51
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.19s           2026-01-04T15:55:51
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.17s           2026-01-04T15:55:52
+================================================================================
+[2026-01-04T15:56:34.524+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-01-04T15:56:49.076+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-01-04T15:56:49.077+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-04T15:56:49.077+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-01-04T15:56:49.078+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T15:56:49.153+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T15:56:49.275+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 0           0
+/opt/airflow/dags/rq2_pipeline_dag.py          214  0.05s             0           0
+/opt/airflow/dags/rq3_explainability_dag.py    211  0.07s             0           0
+/opt/airflow/dags/rq4_fairness_dag.py                                 0           0
+================================================================================
+[2026-01-04T15:57:19.822+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T15:56:49
+/opt/airflow/dags/rq2_pipeline_dag.py          234  0.01s             1           0  0.15s           2026-01-04T15:56:49
+/opt/airflow/dags/rq3_explainability_dag.py    231  0.02s             1           0  0.18s           2026-01-04T15:56:49
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.13s           2026-01-04T15:56:49
+================================================================================
+[2026-01-04T15:57:50.575+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.22s           2026-01-04T15:57:20
+/opt/airflow/dags/rq2_pipeline_dag.py          254  0.01s             1           0  0.25s           2026-01-04T15:57:20
+/opt/airflow/dags/rq3_explainability_dag.py    251  0.02s             1           0  0.25s           2026-01-04T15:57:20
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.23s           2026-01-04T15:57:20
+================================================================================
+[2026-01-04T15:58:21.327+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.25s           2026-01-04T15:57:51
+/opt/airflow/dags/rq2_pipeline_dag.py          274  0.01s             1           0  0.21s           2026-01-04T15:57:50
+/opt/airflow/dags/rq3_explainability_dag.py    271  0.02s             1           0  0.17s           2026-01-04T15:57:50
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:57:51
+================================================================================
+[2026-01-04T15:58:51.924+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:58:21
+/opt/airflow/dags/rq2_pipeline_dag.py          294  0.01s             1           0  0.16s           2026-01-04T15:58:21
+/opt/airflow/dags/rq3_explainability_dag.py    291  0.02s             1           0  0.16s           2026-01-04T15:58:21
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T15:58:21
+================================================================================
+[2026-01-04T15:59:22.505+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:58:52
+/opt/airflow/dags/rq2_pipeline_dag.py          314  0.01s             1           0  0.13s           2026-01-04T15:58:52
+/opt/airflow/dags/rq3_explainability_dag.py    311  0.02s             1           0  0.16s           2026-01-04T15:58:52
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:58:52
+================================================================================
+[2026-01-04T15:59:53.141+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.17s           2026-01-04T15:59:22
+/opt/airflow/dags/rq2_pipeline_dag.py          334  0.01s             1           0  0.15s           2026-01-04T15:59:22
+/opt/airflow/dags/rq3_explainability_dag.py    331  0.02s             1           0  0.15s           2026-01-04T15:59:22
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.18s           2026-01-04T15:59:23
+================================================================================
+[2026-01-04T16:00:23.773+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T15:59:53
+/opt/airflow/dags/rq2_pipeline_dag.py          354  0.01s             1           0  0.18s           2026-01-04T15:59:53
+/opt/airflow/dags/rq3_explainability_dag.py    351  0.02s             1           0  0.18s           2026-01-04T15:59:53
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T15:59:53
+================================================================================
+[2026-01-04T16:00:54.370+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:00:24
+/opt/airflow/dags/rq2_pipeline_dag.py          374  0.01s             1           0  0.16s           2026-01-04T16:00:23
+/opt/airflow/dags/rq3_explainability_dag.py    371  0.03s             1           0  0.16s           2026-01-04T16:00:23
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:00:24
+================================================================================
+[2026-01-04T16:01:24.995+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.17s           2026-01-04T16:00:54
+/opt/airflow/dags/rq2_pipeline_dag.py          394  0.01s             1           0  0.17s           2026-01-04T16:00:54
+/opt/airflow/dags/rq3_explainability_dag.py    391  0.02s             1           0  0.17s           2026-01-04T16:00:54
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.16s           2026-01-04T16:00:54
+================================================================================
+[2026-01-04T16:01:49.483+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T16:01:49.541+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T16:01:55.642+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:01:25
+/opt/airflow/dags/rq2_pipeline_dag.py          414  0.01s             1           0  0.14s           2026-01-04T16:01:25
+/opt/airflow/dags/rq3_explainability_dag.py    411  0.02s             1           0  0.14s           2026-01-04T16:01:25
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.13s           2026-01-04T16:01:25
+================================================================================
+[2026-01-04T16:02:26.394+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.21s           2026-01-04T16:01:56
+/opt/airflow/dags/rq2_pipeline_dag.py          434  0.01s             1           0  0.25s           2026-01-04T16:01:55
+/opt/airflow/dags/rq3_explainability_dag.py    431  0.02s             1           0  0.24s           2026-01-04T16:01:55
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.22s           2026-01-04T16:01:56
+================================================================================
+[2026-01-04T16:02:57.014+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:02:26
+/opt/airflow/dags/rq2_pipeline_dag.py          454  0.01s             1           0  0.17s           2026-01-04T16:02:26
+/opt/airflow/dags/rq3_explainability_dag.py    451  0.02s             1           0  0.17s           2026-01-04T16:02:26
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:02:26
+================================================================================
+[2026-01-04T16:03:27.604+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:02:57
+/opt/airflow/dags/rq2_pipeline_dag.py          474  0.01s             1           0  0.16s           2026-01-04T16:02:57
+/opt/airflow/dags/rq3_explainability_dag.py    471  0.02s             1           0  0.16s           2026-01-04T16:02:57
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.13s           2026-01-04T16:02:57
+================================================================================
+[2026-01-04T16:03:58.175+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T16:03:27
+/opt/airflow/dags/rq2_pipeline_dag.py          494  0.01s             1           0  0.15s           2026-01-04T16:03:27
+/opt/airflow/dags/rq3_explainability_dag.py    491  0.02s             1           0  0.15s           2026-01-04T16:03:27
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:03:28
+================================================================================
+[2026-01-04T16:04:28.751+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:03:58
+/opt/airflow/dags/rq2_pipeline_dag.py          514  0.01s             1           0  0.15s           2026-01-04T16:03:58
+/opt/airflow/dags/rq3_explainability_dag.py    511  0.02s             1           0  0.14s           2026-01-04T16:03:58
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:03:58
+================================================================================
+[2026-01-04T16:04:59.342+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:04:29
+/opt/airflow/dags/rq2_pipeline_dag.py          534  0.01s             1           0  0.15s           2026-01-04T16:04:28
+/opt/airflow/dags/rq3_explainability_dag.py    531  0.02s             1           0  0.15s           2026-01-04T16:04:28
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:04:29
+================================================================================
+[2026-01-04T16:05:29.933+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:04:59
+/opt/airflow/dags/rq2_pipeline_dag.py          554  0.01s             1           0  0.16s           2026-01-04T16:04:59
+/opt/airflow/dags/rq3_explainability_dag.py    551  0.02s             1           0  0.16s           2026-01-04T16:04:59
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:04:59
+================================================================================
+[2026-01-04T16:06:00.531+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:05:30
+/opt/airflow/dags/rq2_pipeline_dag.py          574  0.01s             1           0  0.16s           2026-01-04T16:05:30
+/opt/airflow/dags/rq3_explainability_dag.py    571  0.02s             1           0  0.16s           2026-01-04T16:05:30
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:05:30
+================================================================================
+[2026-01-04T16:06:31.196+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.16s           2026-01-04T16:06:00
+/opt/airflow/dags/rq2_pipeline_dag.py          594  0.02s             1           0  0.17s           2026-01-04T16:06:00
+/opt/airflow/dags/rq3_explainability_dag.py    591  0.05s             1           0  0.16s           2026-01-04T16:06:00
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.16s           2026-01-04T16:06:00
+================================================================================
+[2026-01-04T16:06:49.692+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T16:06:49.753+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T16:07:01.900+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:06:31
+/opt/airflow/dags/rq2_pipeline_dag.py          614  0.01s             1           0  0.22s           2026-01-04T16:06:31
+/opt/airflow/dags/rq3_explainability_dag.py    611  0.02s             1           0  0.23s           2026-01-04T16:06:31
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:06:31
+================================================================================
+[2026-01-04T16:07:32.503+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:07:02
+/opt/airflow/dags/rq2_pipeline_dag.py          634  0.01s             1           0  0.16s           2026-01-04T16:07:02
+/opt/airflow/dags/rq3_explainability_dag.py    631  0.02s             1           0  0.16s           2026-01-04T16:07:02
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:07:02
+================================================================================
+[2026-01-04T16:08:03.123+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:07:32
+/opt/airflow/dags/rq2_pipeline_dag.py          654  0.02s             1           0  0.15s           2026-01-04T16:07:32
+/opt/airflow/dags/rq3_explainability_dag.py    651  0.05s             1           0  0.15s           2026-01-04T16:07:32
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:07:32
+================================================================================
+[2026-01-04T16:08:33.798+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.16s           2026-01-04T16:08:03
+/opt/airflow/dags/rq2_pipeline_dag.py          674  0.01s             1           0  0.24s           2026-01-04T16:08:03
+/opt/airflow/dags/rq3_explainability_dag.py    671  0.02s             1           0  0.25s           2026-01-04T16:08:03
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T16:08:03
+================================================================================
+[2026-01-04T16:08:50.805+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-01-04T16:12:52.451+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-01-04T16:12:52.452+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-04T16:12:52.452+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-01-04T16:12:52.453+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T16:12:52.528+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T16:12:52.667+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 0           0
+/opt/airflow/dags/rq2_pipeline_dag.py          222  0.06s             0           0
+/opt/airflow/dags/rq3_explainability_dag.py    219  0.08s             0           0
+/opt/airflow/dags/rq4_fairness_dag.py                                 0           0
+================================================================================
+[2026-01-04T16:13:23.288+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T16:12:52
+/opt/airflow/dags/rq2_pipeline_dag.py          242  0.01s             1           0  0.21s           2026-01-04T16:12:52
+/opt/airflow/dags/rq3_explainability_dag.py    239  0.02s             1           0  0.21s           2026-01-04T16:12:52
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:12:53
+================================================================================
+[2026-01-04T16:13:53.384+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.22s           2026-01-04T16:13:23
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.39s           2026-01-04T16:13:23
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.42s           2026-01-04T16:13:23
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.23s           2026-01-04T16:13:24
+================================================================================
+[2026-01-04T16:14:23.753+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:13:54
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:13:54
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:13:54
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:13:54
+================================================================================
+[2026-01-04T16:14:54.408+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:14:25
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.20s           2026-01-04T16:14:24
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.20s           2026-01-04T16:14:24
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:14:25
+================================================================================
+[2026-01-04T16:15:25.037+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:14:55
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.18s           2026-01-04T16:14:55
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.21s           2026-01-04T16:14:55
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:14:55
+================================================================================
+[2026-01-04T16:15:55.653+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:15:26
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T16:15:26
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.17s           2026-01-04T16:15:26
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T16:15:26
+================================================================================
+[2026-01-04T16:16:26.241+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:15:56
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T16:15:56
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T16:15:56
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:15:57
+================================================================================
+[2026-01-04T16:16:56.887+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.16s           2026-01-04T16:16:27
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.19s           2026-01-04T16:16:27
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.19s           2026-01-04T16:16:27
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T16:16:27
+================================================================================
+[2026-01-04T16:17:27.488+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.16s           2026-01-04T16:16:58
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T16:16:58
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T16:16:58
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:16:58
+================================================================================
+[2026-01-04T16:17:53.015+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T16:17:53.074+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T16:17:58.133+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:17:28
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:17:28
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:17:28
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:17:28
+================================================================================
+[2026-01-04T16:18:28.789+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.19s           2026-01-04T16:17:59
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:17:59
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:17:59
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.23s           2026-01-04T16:17:59
+================================================================================
+[2026-01-04T16:18:59.381+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:18:30
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T16:18:29
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T16:18:29
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.16s           2026-01-04T16:18:30
+================================================================================
+[2026-01-04T16:19:29.999+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.16s           2026-01-04T16:19:00
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T16:19:00
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.18s           2026-01-04T16:19:00
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:19:00
+================================================================================
+[2026-01-04T16:20:00.614+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T16:19:31
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:19:31
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:19:31
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:19:31
+================================================================================
+[2026-01-04T16:20:31.178+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.12s           2026-01-04T16:20:01
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:20:01
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:20:01
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.12s           2026-01-04T16:20:02
+================================================================================
+[2026-01-04T16:21:01.928+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.24s           2026-01-04T16:20:32
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.23s           2026-01-04T16:20:32
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.23s           2026-01-04T16:20:32
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.23s           2026-01-04T16:20:32
+================================================================================
+[2026-01-04T16:21:32.500+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T16:21:03
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:21:03
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:21:03
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:21:03
+================================================================================
+[2026-01-04T16:22:03.070+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:21:33
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:21:33
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:21:33
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:21:33
+================================================================================
+[2026-01-04T16:22:33.645+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T16:22:04
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:22:04
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:22:04
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:22:04
+================================================================================
+[2026-01-04T16:22:53.269+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T16:22:53.327+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T16:23:04.442+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.21s           2026-01-04T16:22:35
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T16:22:34
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T16:22:34
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.17s           2026-01-04T16:22:35
+================================================================================
+[2026-01-04T16:23:35.091+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:23:05
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T16:23:05
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:23:05
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:23:05
+================================================================================
+[2026-01-04T16:28:44.099+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-01-04T16:28:44.100+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-01-04T16:28:44.101+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-01-04T16:28:44.101+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T16:28:44.163+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T16:28:44.290+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 0           0
+/opt/airflow/dags/rq2_pipeline_dag.py          215  0.05s             0           0
+/opt/airflow/dags/rq3_explainability_dag.py    212  0.07s             0           0
+/opt/airflow/dags/rq4_fairness_dag.py                                 0           0
+================================================================================
+[2026-01-04T16:29:14.831+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T16:28:44
+/opt/airflow/dags/rq2_pipeline_dag.py          235  0.01s             1           0  0.15s           2026-01-04T16:28:44
+/opt/airflow/dags/rq3_explainability_dag.py    232  0.02s             1           0  0.18s           2026-01-04T16:28:44
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.13s           2026-01-04T16:28:44
+================================================================================
+[2026-01-04T16:29:45.630+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.21s           2026-01-04T16:29:15
+/opt/airflow/dags/rq2_pipeline_dag.py          255  0.01s             1           0  0.30s           2026-01-04T16:29:15
+/opt/airflow/dags/rq3_explainability_dag.py    252  0.02s             1           0  0.31s           2026-01-04T16:29:15
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.20s           2026-01-04T16:29:15
+================================================================================
+[2026-01-04T16:30:16.284+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.16s           2026-01-04T16:29:45
+/opt/airflow/dags/rq2_pipeline_dag.py          275  0.01s             1           0  0.17s           2026-01-04T16:29:45
+/opt/airflow/dags/rq3_explainability_dag.py    272  0.03s             1           0  0.17s           2026-01-04T16:29:45
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:29:46
+================================================================================
+[2026-01-04T16:30:46.910+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:30:16
+/opt/airflow/dags/rq2_pipeline_dag.py          295  0.01s             1           0  0.17s           2026-01-04T16:30:16
+/opt/airflow/dags/rq3_explainability_dag.py    292  0.03s             1           0  0.19s           2026-01-04T16:30:16
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.13s           2026-01-04T16:30:16
+================================================================================
+[2026-01-04T16:31:17.527+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.17s           2026-01-04T16:30:47
+/opt/airflow/dags/rq2_pipeline_dag.py          315  0.01s             1           0  0.16s           2026-01-04T16:30:47
+/opt/airflow/dags/rq3_explainability_dag.py    312  0.02s             1           0  0.17s           2026-01-04T16:30:47
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T16:30:47
+================================================================================
+[2026-01-04T16:31:48.114+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:31:17
+/opt/airflow/dags/rq2_pipeline_dag.py          335  0.01s             1           0  0.15s           2026-01-04T16:31:17
+/opt/airflow/dags/rq3_explainability_dag.py    332  0.02s             1           0  0.15s           2026-01-04T16:31:17
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.13s           2026-01-04T16:31:17
+================================================================================
+[2026-01-04T16:32:19.386+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T16:31:48
+/opt/airflow/dags/rq2_pipeline_dag.py          355  0.09s             1           0  0.15s           2026-01-04T16:31:48
+/opt/airflow/dags/rq3_explainability_dag.py    352  0.40s             1           0  0.15s           2026-01-04T16:31:48
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:31:48
+================================================================================
+[2026-01-04T16:32:49.449+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.20s           2026-01-04T16:32:19
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.53s           2026-01-04T16:32:19
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.81s           2026-01-04T16:32:19
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.21s           2026-01-04T16:32:20
+================================================================================
+[2026-01-04T16:33:19.914+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.13s           2026-01-04T16:32:50
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.21s           2026-01-04T16:32:50
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.21s           2026-01-04T16:32:50
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:32:50
+================================================================================
+[2026-01-04T16:33:44.510+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-01-04T16:33:44.561+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2026-01-04T16:33:50.630+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.17s           2026-01-04T16:33:21
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.18s           2026-01-04T16:33:21
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.18s           2026-01-04T16:33:21
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.16s           2026-01-04T16:33:21
+================================================================================
+[2026-01-04T16:34:21.314+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:33:52
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.23s           2026-01-04T16:33:51
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.23s           2026-01-04T16:33:51
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:33:52
+================================================================================
+[2026-01-04T16:34:51.987+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.18s           2026-01-04T16:34:22
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.18s           2026-01-04T16:34:22
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.22s           2026-01-04T16:34:22
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.15s           2026-01-04T16:34:22
+================================================================================
+[2026-01-04T16:35:22.586+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:34:53
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.17s           2026-01-04T16:34:53
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T16:34:53
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.16s           2026-01-04T16:34:53
+================================================================================
+[2026-01-04T16:35:53.163+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:35:23
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:35:23
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:35:23
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:35:24
+================================================================================
+[2026-01-04T16:36:23.734+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:35:54
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:35:54
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:35:54
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:35:54
+================================================================================
+[2026-01-04T16:36:54.318+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:36:25
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.16s           2026-01-04T16:36:24
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.16s           2026-01-04T16:36:24
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:36:25
+================================================================================
+[2026-01-04T16:37:24.902+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:36:55
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:36:55
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:36:55
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:36:55
+================================================================================
+[2026-01-04T16:37:55.480+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/rq1_pipeline_dag.py                                 1           0  0.14s           2026-01-04T16:37:26
+/opt/airflow/dags/rq2_pipeline_dag.py                                 1           0  0.15s           2026-01-04T16:37:26
+/opt/airflow/dags/rq3_explainability_dag.py                           1           0  0.15s           2026-01-04T16:37:26
+/opt/airflow/dags/rq4_fairness_dag.py                                 1           0  0.14s           2026-01-04T16:37:26
+================================================================================
+[2026-01-04T16:38:15.354+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15

@@ -2,19 +2,12 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from datetime import datetime
 
-default_args = {
-    "owner": "airflow",
-    "depends_on_past": False,
-    "retries": 0,
-}
-
 with DAG(
-    dag_id="rq2_model_comparison_pipeline",
-    default_args=default_args,
-    description="RQ2: Model performance vs interpretability",
-    schedule_interval=None,
+    dag_id="rq2_pipeline",
     start_date=datetime(2024, 1, 1),
+    schedule_interval=None,
     catchup=False,
+    tags=["rq2", "modeling"],
 ) as dag:
 
     train_models = BashOperator(
@@ -22,9 +15,19 @@ with DAG(
         bash_command="python /opt/airflow/src/modeling/rq2_model_training.py",
     )
 
-    evaluate_models = BashOperator(
-        task_id="evaluate_models",
-        bash_command="python /opt/airflow/src/evaluation/rq2_model_evaluation.py",
+    performance_tables = BashOperator(
+        task_id="performance_tables",
+        bash_command="python /opt/airflow/src/evaluation/rq2_performance_tables.py",
     )
 
-    train_models >> evaluate_models
+    confusion_matrices = BashOperator(
+        task_id="confusion_matrices",
+        bash_command="python /opt/airflow/src/evaluation/rq2_confusion_matrices.py",
+    )
+
+    roc_curves = BashOperator(
+        task_id="roc_curves",
+        bash_command="python /opt/airflow/src/evaluation/rq2_roc_curves.py",
+    )
+
+    train_models >> performance_tables >> confusion_matrices >> roc_curves

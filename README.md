@@ -1,118 +1,31 @@
-🫀 Chronic Disease Prediction Pipeline
+                                   Chronic Disease Prediction Pipeline
 
-End-to-End Data Engineering & Machine Learning Project
-
-📌 Project Overview
 
 This project implements an end-to-end data engineering and machine learning pipeline for predicting chronic (heart) disease.
 The pipeline covers data ingestion, cleaning, modeling, evaluation, explainability, fairness analysis, and final persistence of results in a relational database.
 
 The system is designed around four research questions (RQ1–RQ4) and is logically orchestrated using Apache Airflow DAGs, with all analytical logic implemented in modular Python scripts.
 
-🎯 Research Questions
-RQ1 – Data Quality
 
-How does data quality impact model performance?
+Dataset Links
 
-Data ingestion from CSV
+Dataset Name: Heart Disease Dataset
+Source: UCI Machine Learning Repository
+Dataset Link:
+https://archive.ics.uci.edu/ml/datasets/heart+disease
 
-Data cleaning and preprocessing
+Research Questions
 
-Data quality checks
+RQ1: How does data quality (missing values and noise) affect predictive model performance?
 
-Preparation for downstream modeling
+RQ2: How do different feature engineering techniques and machine learning models influence prediction accuracy?
 
-RQ2 – Model Comparison
+RQ3: Which features contribute most to chronic disease predictions based on explainability methods?
 
-Which machine learning models provide the best performance–interpretability trade-off?
+RQ4: Are model predictions fair across demographic groups such as sex?
 
-Logistic Regression
 
-Random Forest
-
-Performance metrics (Accuracy, F1-score)
-
-Confusion matrices
-
-ROC curves
-
-Training time comparison
-
-Interpretability comparison table
-
-RQ3 – Explainability
-
-How can explainability methods improve trust in predictions?
-
-Feature importance analysis
-
-SHAP global explanations
-
-SHAP local explanations
-
-Partial dependence plots
-
-Clinical feature interpretation table
-
-RQ4 – Fairness & Ethics
-
-Are there performance disparities across demographic groups?
-
-Performance by sex
-
-Performance by age groups
-
-Fairness comparison tables
-
-Ethical risk summary diagram
-
-🏗️ Project Structure
-chronic-disease-prediction-pipeline/
-│
-├── dags/                         # Airflow DAG definitions (RQ1–RQ4)
-│
-├── src/
-│   ├── data_ingestion/
-│   ├── data_cleaning/
-│   ├── modeling/
-│   ├── evaluation/
-│   ├── explainability/
-│   ├── fairness/
-│   └── data_storage/             # Final SQL persistence
-│
-├── data/
-│   ├── sample/
-│   └── processed/
-│
-├── models/                       # Trained models
-├── figures/                      # Generated figures
-├── tables/                       # Generated tables
-│
-├── docker-compose.yaml
-├── requirements.txt
-└── README.md
-
-⚙️ Technologies Used
-
-Python 3.8+
-
-Pandas, NumPy
-
-Scikit-learn
-
-SHAP
-
-Matplotlib
-
-SQLAlchemy
-
-MySQL 8.0
-
-Apache Airflow 2.8.1
-
-Docker & Docker Compose
-
-🔁 Pipeline Design Philosophy
+Pipeline Design Philosophy
 
 This project follows a batch-oriented analytical pipeline design:
 
@@ -130,40 +43,9 @@ Fairness & Ethics Analysis        (RQ4)
    ↓
 FINAL DATA PERSISTENCE IN SQL     (MySQL)
 
-Key Design Decision
 
-Data is stored in SQL only at the final stage
+How to Run the Code (Without Airflow)
 
-The database acts as a curated analytical store
-
-Intermediate steps operate on CSVs for flexibility and speed
-
-This design is appropriate for offline research and experimentation workflows.
-
-🗄️ Final Data Persistence (MySQL)
-
-At the end of the pipeline, a final curated dataset is stored in MySQL, including:
-
-Cleaned features
-
-Model predictions
-
-Demographically relevant attributes
-
-Table Created
-final_heart_disease_analytics
-
-Persistence Behavior
-
-Implemented using if_exists="replace"
-
-Each pipeline run replaces the table
-
-Ensures the database always reflects the latest validated results
-
-This makes the persistence step idempotent and reproducible.
-
-▶️ How to Run the Project
 1️⃣ Activate Virtual Environment
 .venv\Scripts\activate
 
@@ -196,63 +78,76 @@ python src/fairness/rq4_ethical_risk_summary.py
 6️⃣ Final Step – Store Results in MySQL
 python src/data_storage/store_final_data_sql.py
 
-📊 Outputs Generated
-📁 Tables
+All figures and tables are generated automatically and saved to the figures/ and tables/ folders.
 
-RQ2 performance tables
 
-RQ3 explainability tables
+How to Run the Airflow DAG
+Step 1: Start Airflow using Docker
+docker-compose -f docker-compose.airflow-test.yaml up -d
 
-RQ4 fairness comparison tables
+Step 2: Open the Airflow web interface
+http://localhost:8080
 
-📁 Figures
+Step 3: Log in to Airflow
+Username: admin  
+Password: admin
 
-Confusion matrices
+Step 4: Locate the DAG and trigger the dag
+On the right side of the DAG entry in the Airflow UI, click the play (▶) button to trigger the DAG execution.
 
-ROC curves
 
-SHAP plots
-
-Partial dependence plots
-
-Fairness comparison charts
-
-Ethical risk summary diagram
-
-All outputs are automatically generated and reproducible.
-
-🌬️ Airflow DAGs
-
-Airflow DAGs are provided to represent the logical orchestration of the pipeline:
-
-DAG	Description
-rq1_pipeline_dag.py	Data ingestion and cleaning
-rq2_pipeline_dag.py	Model training and evaluation
-rq3_explainability_dag.py	Explainability analysis
-rq4_fairness_dag.py	Fairness analysis and final persistence
-
-Due to local Windows + Docker limitations, DAG execution was not fully enforced.
-All scripts were executed and validated independently.
-
-🧠 Key Learning Outcomes
-
-End-to-end ML pipeline design
-
-Data quality and preprocessing
-
-Model comparison and evaluation
-
-Explainability with SHAP
-
-Fairness analysis across demographics
-
-SQL persistence using MySQL
-
-Airflow DAG design and debugging
-
-Dependency and environment management
-
-✅ Conclusion
+Project Structure
+chronic-disease-prediction-pipeline/
+│
+├── dags/ 
+│   ├── rq1_pipeline_dag.py
+│   ├── rq2_pipeline_dag.py
+│   ├── rq3_explainability_dag.py
+│   ├── rq4_fairness_dag.py                     
+│
+├── src/
+│   ├── data_ingestion/
+│   │      ├── ingest_data.py
+│   ├── data_cleaning/
+│   │      ├── clean_data.py
+│   ├── modeling/
+│   │      ├── rq1_model_comparison.py
+│   │      ├── rq2_train_models.py
+│   ├── evaluation/
+│   │      ├── rq1_data_quality_analysis.py
+│   │      ├── rq2_confusion_matrices.py
+│   │      ├── rq2_interpretability_table.py
+│   │      ├── rq2_model_evaluation.py
+│   │      ├── rq2_performance_tables.py
+│   │      ├── rq2_roc_curves.py
+│   │      ├── rq2_training_time_plot.py
+│   ├── explainability/
+│   │      ├── rq3_clinical_feature_table.py
+│   │      ├── rq3_feature_importance.py
+│   │      ├── rq3_partial_dependence.py
+│   │      ├── rq3_shap_local_explanation.py
+│   │      ├── rq3_shap_summary.py
+│   ├── fairness/
+│   │      ├── rq4_age_fairness.py
+│   │      ├── rq4_age_fairness_plot.py
+│   │      ├── rq4_ethical_risk_summary.py
+│   │      ├── rq4_prepare_subgroups.py
+│   │      ├── rq4_sex_fairness.py
+│   │      ├── rq4_sex_fairness_plot.py
+│   └── data_storage/
+│        ├── store_final_data_sql.py            
+│
+├── data/
+│   ├── sample/
+│   └── processed/
+│
+├── models/                       
+├── figures/                     
+├── tables/                       
+│
+├── docker-compose.airflow-test.yaml
+├── requirements.txt
+└── README.md
 
 This project demonstrates a complete data engineering workflow, from raw data ingestion to ethical evaluation and final persistence of machine learning results.
 It emphasizes modularity, reproducibility, and sound architectural decisions, making it suitable for both academic evaluation and real-world learning.
