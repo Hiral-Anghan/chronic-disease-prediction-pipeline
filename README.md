@@ -22,7 +22,7 @@ RQ2: How do different feature engineering techniques and machine learning models
 
 RQ3: Which features contribute most to chronic disease predictions based on explainability methods?
 
-RQ4: Are model predictions fair across demographic groups such as sex?
+RQ4: Are model predictions fair across demographic groups such as sex and age Group.
 
 
 Pipeline Design Philosophy
