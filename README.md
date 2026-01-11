@@ -46,8 +46,11 @@ FINAL DATA PERSISTENCE IN SQL     (MySQL)
 
 How to Run the Code (Without Airflow)
 
-1️⃣ Activate Virtual Environment
+1️⃣ Activate Virtual Environment and run requirement,txt file to have all the libarray
 .venv\Scripts\activate
+pip install -r requirement.txt
+
+
 
 2️⃣ Run RQ1 – Data Preparation
 python src/data_ingestion/ingest_data.py
